@@ -32,6 +32,8 @@
 
 ;;; Code:
 
+(print "evaluating shut-up" #'external-debugging-output)
+
 (require 'cl-lib)
 (eval-when-compile
   (defvar dired-use-ls-dired))
